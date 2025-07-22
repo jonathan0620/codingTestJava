@@ -19,7 +19,7 @@ public class _1157_ {
         int maxCount = -1; // 아무 상관없는 수
         char maxAlphabet = '?';
         for (char alp = 'A'; alp <= 'Z'; alp++) {
-            int count = getAlphabetCount(str, alp)
+            int count = getAlphabetCount(str, alp);
             if (count > maxCount) {
                 maxCount = count;
                 maxAlphabet = alp;
