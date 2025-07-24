@@ -1,4 +1,4 @@
-package org.example.boj.String;
+package org.example.String;
 
 import java.util.Scanner;
 
