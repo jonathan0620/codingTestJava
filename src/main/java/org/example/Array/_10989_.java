@@ -1,7 +1,6 @@
 package org.example.Array;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class _10989_ {
     public static void main(String[] args) throws IOException {
