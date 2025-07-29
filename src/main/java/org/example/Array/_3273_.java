@@ -26,6 +26,6 @@ public class _3273_ {
 //            if (0 <= pairValue && pairValue <= 1000000)
 //                ans += exist[pairValue] ? 1 : 0;
 //        }
-        System.out.println(ans/2);
+        System.out.println(ans);
     }
 }
