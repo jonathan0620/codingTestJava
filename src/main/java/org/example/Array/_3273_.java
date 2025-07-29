@@ -16,11 +16,16 @@ public class _3273_ {
             exist[a[i]] = true;
 
         int ans = 0;
-        for (int i = 0; i < N; i++) {
-            int pairValue = X = a[i];
-            if (0 <= pairValue && pairValue <= 1000000)
-                ans += exist[pairValue] ? 1 : 0;
+        for (int i = 1; i <= (X - 1) / 2; i++){
+            if (i <= 1000000 && X - 1 <= 1000000)
+                ans += (exist[i] && exist[X - i]) ? 1: 0;
         }
+        // 첫번째 풀이
+//        for (int i = 0; i < N; i++) {
+//            int pairValue = X = a[i];
+//            if (0 <= pairValue && pairValue <= 1000000)
+//                ans += exist[pairValue] ? 1 : 0;
+//        }
         System.out.println(ans/2);
     }
 }
