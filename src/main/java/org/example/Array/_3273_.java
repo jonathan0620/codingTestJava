@@ -16,7 +16,7 @@ public class _3273_ {
             exist[a[i]] = true;
 
         int ans = 0;
-        for (int i = 1; i <= (X - 1) / 2; i++){
+        for (int i = 1; i <= (X - i) / 2; i++){
             if (i <= 1000000 && X - 1 <= 1000000)
                 ans += (exist[i] && exist[X - i]) ? 1: 0;
         }
