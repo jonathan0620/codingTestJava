@@ -1,5 +1,6 @@
 package org.example.Hash;
 
+
 import java.util.*;
 public class 베스트앨범 {
     public int[] solution(String[] genres, int[] plays) {
