@@ -2,7 +2,7 @@ package org.example.Hash;
 
 import java.util.HashSet;
 import java.util.Set;
-
+ 
 public class 중복된문자제거 {
     public String solution(String my_string) {
         Set<Character> used = new HashSet<>();
